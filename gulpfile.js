@@ -127,10 +127,6 @@ function fonts() {
         .pipe(dest(path.build.fonts))
 }
 
-function fontsStyle() {
-
-}
-
 function watchFiles(params) {
     gulp.watch([path.watch.html], html);
     gulp.watch([path.watch.css], css);
